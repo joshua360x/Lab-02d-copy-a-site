@@ -1,0 +1,115 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  height: 100%;
+  grid-template-rows: 20% 45% 1%;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 0 4px;
+}
+
+.shop {
+  display: flex;
+}
+
+.shop li {
+  margin: 0 20px;
+}
+
+.pro {
+  display: flex;
+}
+
+.pro li {
+  margin: 0 20px;
+}
+
+.specialImg1 {
+  margin: 0 20px;
+}
+.title {
+  font-size: 45px;
+}
+
+li {
+  list-style-type: none;
+}
+
+article img {
+  margin: 5px 0;
+  margin-right: 5px;
+}
+
+.fixed {
+  border: solid 1px black;
+  width: 280px;
+  position: fixed;
+  top: 180px;
+  right: 19px;
+  background-color: lightgray;
+  font-size: 12px;
+  display: flex;
+  height: 35px;
+}
+
+span {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+
+main {
+  display: flex;
+  align-items: center;
+}
+
+.customerSol {
+  padding: 0 1.5rem;
+  margin: 0 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.customerSol p {
+  margin-top: -15px;
+}
+
+.headImg {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.words {
+  text-align: center;
+}
+
+footer {
+  width: 100px;
+  position: fixed;
+  bottom: 320px;
+  right: 100px;
+}
+
